@@ -47,6 +47,8 @@ File build/index.html already exists. Overwrite? Yes (if prompted)
 
 Now let's create the production build by using thwe following command
 
+Note: You may need to delete /firebase.json
+
 ### `npm run build`
 
 And finally deploy the build to firebase using the following command
