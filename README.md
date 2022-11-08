@@ -1,5 +1,7 @@
 # NETFLIX UI Clone By Mayank Shekhar
 
+![image](https://user-images.githubusercontent.com/52963184/200511497-da20b0e9-0179-4fb1-91e8-f757bb4400f0.png)
+
 ## DEMO LINK - https://netflix-clone-a2717.web.app
 
 ## Build
@@ -56,9 +58,5 @@ And finally deploy the build to firebase using the following command
 ### `firebase deploy`
 
 You will get a hosting URL in the end. Congratulations on deploying your own netflix clone.
-
-# SCREENSHOTS
-
-![image](https://user-images.githubusercontent.com/52963184/200511497-da20b0e9-0179-4fb1-91e8-f757bb4400f0.png)
 
 https://user-images.githubusercontent.com/52963184/200512765-24d742f3-2cb7-4e1b-8300-20ba77a54afd.mp4
