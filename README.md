@@ -1,6 +1,6 @@
 # NETFLIX UI Clone By Mayank Shekhar
 
-## DEMO LINK - to be hosted
+## DEMO LINK - https://netflix-clone-a2717.web.app
 
 ## Build
 
