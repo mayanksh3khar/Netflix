@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# NETFLIX UI Clone By Mayank Shekhar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## DEMO LINK - to be hosted
 
-## Available Scripts
+## Build
 
-In the project directory, you can run:
+To build yoou need to install NodeJs. and run
 
-### `npm start`
+### `npx create-react-app my-app`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Delete everything except node_modules and download the files as zip and extract to root directory or just use 
+`git clone https://github.com/Ankitaroy0810/-netflix-clone-\`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+then deploy localhost server in dev mode by the following commmand. Note - You may need to install axios by using `npm install axios` command
 
-### `npm test`
+### `npm run`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Browser will launch. If everything is working as expected, you can deploy into any server. I'll show you the steps for hosting it onto firebase server. Install using the following command.
+
+### `npm install firebase`
+
+To deploy now use the following command to login to firebase
+
+### `firebase login`
+
+Login into your Google account in the browser window that pops up
+
+Now to setup hosting service you have to use the following command
+
+### `firebase init`
+
+Are you ready to proceed? Yes
+
+Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices. Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+
+In "Please select an option for using an existing project" You can choose an existing project or create a new one from terminal.
+Proceed as you like and follow the prompts to select the project
+
+What do you want to use as your public directory? build
+
+Configure as a single-page app (rewrite all urls to /index.html)? Yes
+
+Set up automatic builds and deploys with GitHub? No (Or yes if you wish to do so)
+
+File build/index.html already exists. Overwrite? Yes (if prompted)
+
+Now let's create the production build by using thwe following command
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+And finally deploy the build to firebase using the following command
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `firebase deploy`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You will get a hosting URL in the end. Congratulations on deploying your own netflix clone.
