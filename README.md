@@ -8,7 +8,8 @@ To build yoou need to install NodeJs. and run
 
 ### `npx create-react-app my-app`
 
-Delete everything except node_modules and download the files as zip and extract to root directory or just use 
+Delete everything except node_modules and download the files as zip and extract to root directory or just use
+
 `git clone https://github.com/mayanksh3khar/netflix/`
 
 then deploy localhost server in dev mode by the following commmand. Note - You may need to install axios by using `npm install axios` command
