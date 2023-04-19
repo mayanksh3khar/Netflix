@@ -59,4 +59,6 @@ And finally deploy the build to firebase using the following command
 
 You will get a hosting URL in the end. Congratulations on deploying your own netflix clone.
 
+## Mobile Preview
+
 https://user-images.githubusercontent.com/52963184/200512765-24d742f3-2cb7-4e1b-8300-20ba77a54afd.mp4
